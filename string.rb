@@ -17,3 +17,5 @@ puts "22.55".to_i
 puts "Ruby Developer".length
 
 puts "Hello World! this is a string".split("this")
+
+puts "hello".delete_prefix("hel")
