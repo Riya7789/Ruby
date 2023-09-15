@@ -1,4 +1,3 @@
-
 puts "Enter the number of Student:"
 
 number = gets.chomp.to_i
@@ -40,50 +39,12 @@ student= Hash.new
     student["#{i}"]["Grade"]=grade
 end
 
-student.each do |i,j|
+student.each do |key,value|
     puts "Student grades and averages:"
-    puts "Name:#{student["#{i}"]["Name"]}"
-    puts "Average Marks:#{student["#{i}"]["Average"]}"
-    puts "Letter Grade: #{student["#{i}"]["Grade"]}"
+    puts "Name:#{value["Name"]}"
+    puts "Average Marks:#{student["#{key}"]["Average"]}"
+    puts "Letter Grade: #{student["#{key}"]["Grade"]}"
+
+    
     puts " " 
     end
-
-    
-
-#     student[name]={        
-#         "average"=> avg,
-#         "grade"=> grade
-#     }
-# end
-
-
-#Display student information
-        # student.each do |name,data|
-        # puts "Student grades and averages:"
-        # puts "Name:#{name}"
-        # puts "Average Marks:#{data["average"]}"
-        # puts "Letter Grade: #{data["grade"]}"
-        # end
-
-       
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
