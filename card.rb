@@ -44,4 +44,3 @@ class Card
   card = deck.deal
   puts "Deal: #{card}"
 end
-\
