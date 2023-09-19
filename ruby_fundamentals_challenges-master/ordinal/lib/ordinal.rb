@@ -1,3 +1,4 @@
+#ordinal number
 def ordinal(number)
   if [11,12,13].include?(number % 100)
     return "#{number}th"
